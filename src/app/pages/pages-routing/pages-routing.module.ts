@@ -22,8 +22,8 @@ const routes: Routes = [
       { path: 'category', component: CategoryComponent },
     ],
   },
-  //  {path: '', redirectTo:'/dashboard', pathMatch: 'full'},
-  { path: '**', component: NotFoundComponent },
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  //{ path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
